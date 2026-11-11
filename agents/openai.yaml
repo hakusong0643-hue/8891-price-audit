@@ -1,0 +1,13 @@
+interface:
+  display_name: 8891 價格巡檢
+  short_description: 唯讀檢查所有出售中車輛，列出與參考行情相差逾一萬元的刊登
+  default_prompt: 用 $8891-price-audit 巡檢出售中車輛的刊登價格。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
